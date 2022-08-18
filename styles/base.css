@@ -9,7 +9,7 @@
   
 }
 
-@components {
+@layer components {
   .issue-1 {
     @apply bg-red-400;
     outline: 1px solid red;
