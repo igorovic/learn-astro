@@ -5,12 +5,20 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "debug": "cross-env NODE_OPTIONS='--inspect' astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
-    "astro": "^1.0.6"
+    "@tailwindcss/typography": "^0.5.4",
+    "@types/node": "^18.7.6",
+    "astro": "^1.0.6",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "i18next": "^21.9.1",
+    "locale-emoji": "^0.3.0"
   }
 }

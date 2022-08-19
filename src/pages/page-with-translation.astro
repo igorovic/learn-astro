@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+//import { LanguageSelector } from "astro-i18next/components";
+import { t } from "i18next";
+---
+
+<Layout title="Page i18next">
+  <!-- <LanguageSelector /> -->
+  <h2>Greetings</h2>
+  <p>{t("hello world", { ns: "common" })}</p>
+</Layout>

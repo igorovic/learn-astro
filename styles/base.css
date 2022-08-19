@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@base {
+@layer base {
   h1{
-    @apply font-medium;
+    @apply font-medium text-3xl;
   }
   
 }
@@ -13,5 +13,8 @@
   .issue-1 {
     @apply bg-red-400;
     outline: 1px solid red;
+  }
+  .intro p {
+    @apply mt-4 lg:mt-0;
   }
 }
